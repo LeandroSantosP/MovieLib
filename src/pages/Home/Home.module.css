@@ -1,0 +1,11 @@
+.container {
+   display: grid;
+   width: 100%;
+   grid-template-columns: repeat(auto-fit, 200px);
+   background-color: rgba(0, 0, 0, 0.164);
+   padding: 3rem;
+   border-radius: .5rem;
+   justify-content: center;
+   gap: 4rem;
+   border: 1px solif #000;
+}

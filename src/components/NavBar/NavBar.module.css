@@ -1,0 +1,64 @@
+.container {
+   background: rgb(10,22,33);
+   background: linear-gradient(90deg, rgba(10,22,33,1) 17%, rgba(30,41,64,1) 100%);
+   padding: 2rem;
+   display: flex;
+   width: 100%;
+   justify-content: space-between;
+   align-items: center;
+   margin-bottom: 2rem;
+}
+
+.container .logo {
+   display: flex;
+   gap: 1rem;
+   width: auto;
+   align-items: center;
+   color: #fff;
+}
+
+.logo svg {
+   font-size: 5rem;
+   color: #fff;
+}
+
+.logo h1{
+   font-weight: bold;
+   margin-top: 1rem;
+}
+
+.nav_container {
+   width: 70%;
+   padding: 2rem;
+   display: flex;
+   justify-content: flex-end;
+   gap: 2rem;
+}
+
+form {
+   width: 50%;
+   display: flex;
+   justify-content: end;
+}
+
+.nav_container input {
+   padding: .5rem .2rem;
+   outline: none;
+   padding: 0 2rem;
+   border-radius: .6rem;
+   border: none;
+   font-weight: bold;
+   font-size: 1.6rem;
+}
+.nav_container button {
+   border-radius: .6rem;
+   border: 2px solid rgb(86, 85, 116);
+   padding: .5rem;
+   font-weight: bold;
+   transition: .5s;
+}
+
+.nav_container button:hover {
+   color: #fff;
+   background-color: transparent;
+}

@@ -1,0 +1,35 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-size: 1.6rem;
+   font-weight: 300;
+   font-family: 'Poppins', sans-serif;
+}
+
+
+body {
+   background-color: #1E2940;
+   color: #fff;
+   
+}
+
+html {
+   font-size: 62.5%;
+}
+
+li,li {
+   list-style: none;
+}
+
+a{
+   text-decoration: none;
+}
+
+.container {
+   display: flex;
+   flex: 1;
+   max-width: 1000px;
+   width: 100%;
+   margin: 0 auto;
+}

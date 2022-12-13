@@ -1,0 +1,92 @@
+.all_content{
+   padding: 2rem;
+   font-size: 1.6rem;
+   display: flex;
+   flex-direction: column;
+   gap: .5rem;
+}
+
+.p-elements {
+   display: flex;
+   align-items: center;
+}
+
+.all_content h1 {
+   color: #fff;
+   font-size: 2rem;
+   margin-bottom: 2rem;
+   font-weight: 700;
+   border-bottom: 1px solid #000;
+   border-radius: 1rem;
+   text-align: center;
+   
+}
+
+.all_content svg {
+   color: rgb(241, 207, 11);
+   font-size: 2rem;
+   margin-right: 1rem;
+}
+
+.country {
+   display: flex;
+   text-align: center;
+   gap: 1rem;
+   font-size: 1.6rem;
+}
+
+.country > svg  {
+   color: #fff;
+}
+
+.inicial-infos{
+   background-color: rgba(0, 0, 0, 0.219);
+   padding: 1rem;
+   border-radius: 1rem;
+}
+
+.gen {
+   margin-top: 1rem;
+   padding-top: 1rem;
+   border-top: 1px solid #000;
+}
+
+.list-gen {
+   display: flex;
+   align-items: center;
+}
+
+
+.description_title {
+   color: #fff;
+   font-size: 2rem;
+   display: flex;
+   width: 100%;
+   justify-content: center;
+   margin: .7rem 0;
+}
+
+.description {
+   display: flex;
+   font-size: 1.3rem;
+   text-align: center;
+   flex: 1;
+   border-bottom: 1px solid #000;
+   border-radius: 1rem;
+   line-height: 2.5rem;
+}
+
+.company {
+   display: flex;
+   margin-top: 1.3rem;
+   gap: 1rem;
+   justify-content: center;
+   width: 100%;
+   gap: 3rem;
+}
+
+.company_logo {
+   width: 40px;
+   height: 40px;
+   font-size: 1rem;
+}
